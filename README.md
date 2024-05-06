@@ -28,23 +28,22 @@ To begin your analysis, follow these steps:
 Here are some sample SQL queries to get you started:
 
 Retrieve the total number of tracks in the store.
- - SELECT COUNT(*) AS total_tracks FROM track;
+*     SELECT COUNT(*) AS total_tracks FROM track;
 
 Find the top 10 most purchased tracks.
-SELECT t.name AS track_name, COUNT(il.track_id) AS total_purchases
-FROM track t
-JOIN invoice_line il ON t.track_id = il.track_id
-GROUP BY t.name
-ORDER BY total_purchases DESC
-LIMIT 10;
+*     SELECT t.name AS track_name, COUNT(il.track_id) AS total_purchases
+      FROM track t
+      JOIN invoice_line il ON t.track_id = il.track_id
+      GROUP BY t.name
+      ORDER BY total_purchases DESC
+      LIMIT 10;
+  
 Identify the most popular genres among customers.
-
-
-SELECT g.name AS genre_name, COUNT(*) AS total_tracks
-FROM genre g
-JOIN track t ON g.genre_id = t.genre_id
-GROUP BY g.name
-ORDER BY total_tracks DESC;
+*     SELECT g.name AS genre_name, COUNT(*) AS total_tracks
+      FROM genre g
+      JOIN track t ON g.genre_id = t.genre_id
+      GROUP BY g.name
+      ORDER BY total_tracks DESC;
 
 ## Conclusion
 By conducting this analysis, you'll gain valuable insights into the music store's operations, customer preferences, and market trends. These insights can inform strategic decisions aimed at enhancing customer experience, optimizing product offerings, and driving business growth.
