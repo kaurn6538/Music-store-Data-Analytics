@@ -29,6 +29,7 @@ Here are some sample SQL queries to get you started:
 
 Retrieve the total number of tracks in the store.
  - SELECT COUNT(*) AS total_tracks FROM track;
+
 Find the top 10 most purchased tracks.
 SELECT t.name AS track_name, COUNT(il.track_id) AS total_purchases
 FROM track t
