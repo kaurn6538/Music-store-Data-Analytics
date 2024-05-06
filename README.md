@@ -16,12 +16,12 @@ PgAdmin4: A popular PostgreSQL administration and development platform, providin
 ## Getting Started
 To begin your analysis, follow these steps:
 
-Set Up Database: Ensure you have PostgreSQL installed on your system. Create a new database named MusicDatabaseSchema and import the music store dataset into it.
-Connect to Database: Open PgAdmin4 and connect to the MusicDatabaseSchema database.
-Explore Data: Familiarize yourself with the database schema and available tables. This understanding will guide your analysis process.
-Query Data: Utilize SQL queries to explore different aspects of the dataset. Start with simple queries to retrieve basic information and gradually move towards more complex queries to extract deeper insights.
-Analyze Results: Interpret the query results to derive meaningful insights about the music store's performance, customer preferences, and sales trends.
-Document Findings: Document your findings and insights in the README file, summarizing the key takeaways from your analysis.
+1.Set Up Database: Ensure you have PostgreSQL installed on your system. Create a new database named MusicDatabaseSchema and import the music store dataset into it.
+2.Connect to Database: Open PgAdmin4 and connect to the MusicDatabaseSchema database.
+3.Explore Data: Familiarize yourself with the database schema and available tables. This understanding will guide your analysis process.
+4.Query Data: Utilize SQL queries to explore different aspects of the dataset. Start with simple queries to retrieve basic information and gradually move towards more complex queries to extract deeper insights.
+5.Analyze Results: Interpret the query results to derive meaningful insights about the music store's performance, customer preferences, and sales trends.
+6.Document Findings: Document your findings and insights in the README file, summarizing the key takeaways from your analysis.
 
 ## Sample Queries
 Here are some sample SQL queries to get you started:
