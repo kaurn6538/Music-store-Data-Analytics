@@ -11,6 +11,7 @@ In this project, you'll be working with a dataset from an online music store. By
 
 ## Tools
 PostgreSQL: An open-source relational database management system known for its robustness and extensibility.
+
 PgAdmin4: A popular PostgreSQL administration and development platform, providing a user-friendly interface for managing databases.
 
 ## Getting Started
